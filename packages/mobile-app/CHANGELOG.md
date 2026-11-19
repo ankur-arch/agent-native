@@ -33,6 +33,84 @@
 - An invalid Clips library response shows an error instead of an empty
   library.
 
+## 0.1.211
+
+### Patch Changes
+
+- Updated dependencies [dd11f68]
+- Updated dependencies [0f4643c]
+- Updated dependencies [2d3661c]
+- Updated dependencies [3a185b9]
+- Updated dependencies [abf512f]
+- Updated dependencies [bf07e40]
+- Updated dependencies [abf512f]
+- Updated dependencies [2d3661c]
+- Updated dependencies [75c90a5]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [1314760]
+- Updated dependencies [4f80390]
+- Updated dependencies [a6affb8]
+- Updated dependencies [b578994]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [75c90a5]
+- Updated dependencies [6facea0]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [ccb0316]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [41c2b0e]
+- Updated dependencies [cf35296]
+- Updated dependencies [8629141]
+- Updated dependencies [f67e71b]
+- Updated dependencies [a6d83c7]
+- Updated dependencies [0a90ec1]
+- Updated dependencies [67b4202]
+- Updated dependencies [c8d851d]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [75c90a5]
+- Updated dependencies [ac21d0b]
+- Updated dependencies
+- Updated dependencies [3c8b439]
+- Updated dependencies [3c8b439]
+- Updated dependencies [efcefaa]
+- Updated dependencies [eff1145]
+- Updated dependencies [02a4f47]
+- Updated dependencies [26622ed]
+- Updated dependencies [75c90a5]
+- Updated dependencies [91c224a]
+- Updated dependencies [abf512f]
+- Updated dependencies [658a9f5]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [05e6e34]
+- Updated dependencies [4537c00]
+- Updated dependencies [a46cbdd]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [abf512f]
+- Updated dependencies [abf512f]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [1995091]
+- Updated dependencies [708b59e]
+- Updated dependencies [3c2c2f1]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [675a614]
+- Updated dependencies [abf512f]
+- Updated dependencies [abf512f]
+- Updated dependencies [abf512f]
+- Updated dependencies [68cd6e5]
+- Updated dependencies [bc7c1b3]
+- Updated dependencies [e037d08]
+- Updated dependencies [66de1ad]
+- Updated dependencies [abf512f]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [ac21d0b]
+- Updated dependencies [25164d9]
+- Updated dependencies [bbc14e5]
+- Updated dependencies [4ddc78e]
+- Updated dependencies [dc0b85b]
+- Updated dependencies [0cc6bb3]
+  - @agent-native/core@0.232.0
+  - @agent-native/agentkit@0.232.0
+
 ## 0.1.210
 
 ### Patch Changes
@@ -2924,14 +3002,5 @@
 - Updated dependencies [7265794]
 - Updated dependencies [1417ba5]
   - @agent-native/core@0.173.1
-
-## 0.1.112
-
-### Patch Changes
-
-- Updated dependencies
-- Updated dependencies [460080b]
-- Updated dependencies [460080b]
-  - @agent-native/core@0.173.0
 
 For the full list of releases, see the [changelog archive](./changelog/archive/CHANGELOG.md).

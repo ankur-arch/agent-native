@@ -1,5 +1,12 @@
 # @agent-native/agentkit
 
+## 0.232.0
+
+### Patch Changes
+
+- 6facea0: Keep the Thinking indicator visible after a chat message appears while its run is starting, including when a queued message starts immediately.
+- Release all public npm packages with a patch version bump.
+
 ## 0.231.0
 
 ### Patch Changes

@@ -3,6 +3,18 @@
 All notable user-facing changes to Agent-Native Analytics are documented here. Open it any
 time from the command menu (Cmd+K → "What's new") or from Settings.
 
+## 2026-11-18
+
+### Added
+
+- New hosted signups now set up a Builder account automatically, so AI features are ready on first load.
+
+## 2026-11-17
+
+### Added
+
+- BigQuery jobs started by connected MCP agents now count against daily limits ($1 per person without asking, $5 per person, $50 per organization, 50 GB per job), and the onboarding journey and health tools report what each call cost and what is left today; organization admins can raise the limits from Analytics' agent.
+
 ## 2026-11-16
 
 ### Added
@@ -85,6 +97,12 @@ time from the command menu (Cmd+K → "What's new") or from Settings.
 ### Improved
 
 - The Content dashboard shows each article's pageviews, search clicks and impressions, and charts pageviews and search clicks per day.
+
+## 2026-10-30
+
+### Fixed
+
+- Your light/dark theme choice now stays yours instead of being shared with your whole organization.
 
 ## 2026-10-29
 
@@ -1459,40 +1477,5 @@ time from the command menu (Cmd+K → "What's new") or from Settings.
 - Sidebar dashboard menus now open above the dashboard canvas
 - Uptime checks no longer count SSRF setup time against the request timeout, cutting false timeout alerts
 - Uptime monitors now confirm transient timeout failures before alerting, reducing noisy false alarms.
-
-## 2026-07-07
-
-### Improved
-
-- Session replays load sooner, show clearer activity timelines, and keep Dev Tools fast on large recordings.
-
-### Fixed
-
-- Analytics now recovers from stale route chunks after deploys instead of leaving dashboards stuck on failed module loads.
-- Metric dashboard cards now show warehouse-backed numeric values correctly when query results return numbers as strings.
-
-## 2026-07-06
-
-### Added
-
-- Dashboards can now chart data programs — saved server-side scripts that join data from any connected provider
-
-### Fixed
-
-- Dashboard lists and headers stay compact by keeping owner and sharing details out of always-visible labels.
-- Extension pages and mobile headers now share one consistent app background shade.
-- Mobile chat now has a tighter matching header, stable Safari viewport sizing, working navigation menu, and New chat action in the top bar.
-
-## 2026-07-03
-
-### Added
-
-- Added an Agents page that brings monitoring, evals, experiments, feedback, and advanced database tools into one organized admin surface.
-- The Agent-Native dashboard now shows model cost, token usage, latency, and error tracking.
-- Analytics admins can now connect other agent-native app databases from Agents and inspect or repair those target databases without exposing Analytics data to all users.
-
-### Improved
-
-- Session recordings now include response bodies for 5xx errors so agents can see the actual server error
 
 For the full list of updates, see the [changelog folder](./changelog/).

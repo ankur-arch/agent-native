@@ -3,10 +3,17 @@
 All notable user-facing changes to Clips are documented here. Open it any time
 from the command menu (Cmd+K → "What's new") or from Settings.
 
+## 2026-11-18
+
+### Fixed
+
+- Automatic Builder setup now runs only on hosted Clips, not on apps created from the Clips template.
+
 ## 2026-11-16
 
 ### Fixed
 
+- Title generation now explains when workspace email verification is required.
 - Agent frame requests on large recordings no longer fail with "Recording range request budget exceeded" while the video is being read.
 - Asking the agent to archive or change your clips older than a date no longer skips the ones you've shared with someone
 - Asking the agent to make several clips public now asks "Make 5 recordings public?" instead of "Approve this tool call?"
@@ -1393,15 +1400,5 @@ from the command menu (Cmd+K → "What's new") or from Settings.
 - Recording retries the default Mac microphone when a saved input is no longer available.
 - Rewind now reports the same live capture status on Home and in Settings without mistaking an idle moment for a permission problem.
 - Shared Clips now tell agents to wait while uploads and transcription finish.
-
-## 2026-07-19
-
-### Added
-
-- Ready Clips transcripts can be backfilled to Brain for a bounded recent window with clear export and privacy-review results.
-
-### Improved
-
-- Rewind-backed recordings now start immediately after the countdown and upload progressively while you record.
 
 For the full list of updates, see the [changelog folder](./changelog/).
